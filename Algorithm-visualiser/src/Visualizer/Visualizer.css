@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.Visualizer {
+  text-align: center;
+  background-color: black;
+  height: 100%;
+  /* background-image: url('/images/13319f005b6f417ac92e598dab464d71.gif'); */
+  /* background-image: url('/images/giphy2.gif'); */
+  /* background-image: url('/images/giphy3.gif'); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

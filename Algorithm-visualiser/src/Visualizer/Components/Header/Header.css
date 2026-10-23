@@ -1,0 +1,45 @@
+.big {
+  transform: scale(2);
+}
+.btn-run {
+  background-color: yellow;
+  margin: 0;
+  float: none;
+}
+
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.slider.slider-horizontal {
+  width: 70%;
+}
+
+.settings-dropdown .dropdown-menu {
+  max-height: calc(100vh - 6rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-width: 280px;
+  padding: 0.75rem 1rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.settings-dropdown .dropdown-menu .container {
+  max-width: 100%;
+  padding: 0;
+}
+
+.settings-dropdown .dropdown-menu .form-control-range {
+  width: 100%;
+}
+
+.settings-dropdown .dropdown-menu .form-control,
+.settings-dropdown .dropdown-menu .custom-range {
+  margin-bottom: 0.35rem;
+}
+
+.settings-dropdown .dropdown-menu .dropdown-divider {
+  margin: 0.4rem 0;
+}

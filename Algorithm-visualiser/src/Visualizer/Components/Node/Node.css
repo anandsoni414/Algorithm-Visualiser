@@ -1,0 +1,34 @@
+.Node {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  background-color: lightcyan;
+  transition: transform 0.2s;
+}
+.Node:active {
+  transform: scale(1.25);
+}
+
+.visited {
+  background-color: hotpink;
+}
+
+.start {
+  background-color: rgb(206, 47, 255);
+}
+
+.finish {
+  background-color: yellow;
+}
+
+.path {
+  background-color: rgb(41, 83, 199);
+}
+
+.fence {
+  background-color: black;
+  transition: transform 0.2s;
+}
+.fence:active:hover {
+  transform: scale(1.25);
+}

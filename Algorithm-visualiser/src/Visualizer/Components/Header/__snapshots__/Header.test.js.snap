@@ -1,0 +1,543 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders 1`] = `
+<Navbar
+  bg="dark"
+  collapseOnSelect={true}
+  expand="lg"
+  expanded={false}
+  variant="dark"
+>
+  <NavbarBrand
+    href="https://github.com/anujyadav-js/Algorithm-visualiser"
+  >
+    Algo-Visualiser
+  </NavbarBrand>
+  <NavbarToggle
+    aria-controls="responsive-navbar-nav"
+    label="Toggle navigation"
+    onClick={[Function]}
+  />
+  <NavbarCollapse
+    id="responsive-navbar-nav"
+  >
+    <Container
+      fluid={true}
+    >
+      <Col
+        md={
+          Object {
+            "span": 2,
+          }
+        }
+      >
+        <Nav
+          className="mr-auto"
+          fill={false}
+          justify={false}
+        >
+          <NavDropdown
+            id="collapsible-nav-dropdown"
+            title="Algorithms"
+          >
+            <OverlayTrigger
+              defaultShow={false}
+              key="0"
+              overlay={
+                <ForwardRef
+                  id="dijkstra-popover"
+                  placement="right"
+                >
+                  <ForwardRef
+                    as="h2"
+                  >
+                    Dijkstra
+                  </ForwardRef>
+                  <ForwardRef>
+                    <p>
+                      <strong>
+                        Weighted
+                      </strong>
+                    </p>
+                    <p
+                      style={
+                        Object {
+                          "whiteSpace": "pre-line",
+                        }
+                      }
+                    >
+                      Running Time:
+O( | E | log | V | )
+Always finds the shortest path.
+                    </p>
+                    <p>
+                      Uses distance of nodes to choose the direction to travel.
+                    </p>
+                  </ForwardRef>
+                </ForwardRef>
+              }
+              placement="right"
+              trigger={
+                Array [
+                  "hover",
+                  "focus",
+                ]
+              }
+            >
+              <DropdownItem
+                active={false}
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "displayName": "SafeAnchor",
+                    "render": [Function],
+                  }
+                }
+                disabled={false}
+                id="set-dijkstra"
+                onClick={[Function]}
+              >
+                Dijkstra
+              </DropdownItem>
+            </OverlayTrigger>
+            <OverlayTrigger
+              defaultShow={false}
+              key="1"
+              overlay={
+                <ForwardRef
+                  id="dfs-popover"
+                  placement="right"
+                >
+                  <ForwardRef
+                    as="h2"
+                  >
+                    Depth First Search
+                  </ForwardRef>
+                  <ForwardRef>
+                    <p>
+                      <strong>
+                        Not Weighted
+                      </strong>
+                    </p>
+                    <p
+                      style={
+                        Object {
+                          "whiteSpace": "pre-line",
+                        }
+                      }
+                    >
+                      Running Time:
+O( | V | + | E | )
+Will not find the shortest path
+                    </p>
+                    <p>
+                      Searches every branch of a graph
+                    </p>
+                  </ForwardRef>
+                </ForwardRef>
+              }
+              placement="right"
+              trigger={
+                Array [
+                  "hover",
+                  "focus",
+                ]
+              }
+            >
+              <DropdownItem
+                active={false}
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "displayName": "SafeAnchor",
+                    "render": [Function],
+                  }
+                }
+                disabled={false}
+                id="set-dfs"
+                onClick={[Function]}
+              >
+                Depth First Search
+              </DropdownItem>
+            </OverlayTrigger>
+            <OverlayTrigger
+              defaultShow={false}
+              key="2"
+              overlay={
+                <ForwardRef
+                  id="bfs-popover"
+                  placement="right"
+                >
+                  <ForwardRef
+                    as="h2"
+                  >
+                    Breadth First Search
+                  </ForwardRef>
+                  <ForwardRef>
+                    <p>
+                      <strong>
+                        Not Weighted
+                      </strong>
+                    </p>
+                    <p
+                      style={
+                        Object {
+                          "whiteSpace": "pre-line",
+                        }
+                      }
+                    >
+                      Running Time:
+O( | V | + | E | )
+Will find the shortest path
+                    </p>
+                    <p>
+                      Will search paths only after its current path has been fully explored.
+                    </p>
+                  </ForwardRef>
+                </ForwardRef>
+              }
+              placement="right"
+              trigger={
+                Array [
+                  "hover",
+                  "focus",
+                ]
+              }
+            >
+              <DropdownItem
+                active={false}
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "displayName": "SafeAnchor",
+                    "render": [Function],
+                  }
+                }
+                disabled={false}
+                id="set-bfs"
+                onClick={[Function]}
+              >
+                Breadth First Search
+              </DropdownItem>
+            </OverlayTrigger>
+          </NavDropdown>
+        </Nav>
+      </Col>
+      <Col
+        md={
+          Object {
+            "span": 4,
+          }
+        }
+      >
+        <Nav
+          fill={false}
+          justify={false}
+        >
+          <Button
+            active={false}
+            disabled={false}
+            id="info-btn"
+            onClick={[Function]}
+            style={
+              Object {
+                "border": "2px solid cyan",
+                "color": "cyan",
+              }
+            }
+            type="button"
+            variant="dark"
+          >
+            How To Use
+          </Button>
+          <Bootstrap(Modal)
+            onHide={[Function]}
+          >
+            <ModalHeader
+              closeButton={true}
+              closeLabel="Close"
+            >
+              <ModalTitle>
+                How To Use
+              </ModalTitle>
+            </ModalHeader>
+            <ModalBody>
+              <Container
+                fluid={false}
+              >
+                <Row
+                  noGutters={false}
+                >
+                  1. Place a start and end point by clicking on the grid! (You can remove them by clicking on them again)
+                </Row>
+                <Row
+                  noGutters={false}
+                >
+                   
+                  2. Then place fences by checking "Fence Mode" and clicking on the grid.
+                   
+                </Row>
+                <Row
+                  noGutters={false}
+                >
+                  3. Choose an algorithm via the "Algorithms" dropdown. 
+                </Row>
+                <Row
+                  noGutters={false}
+                >
+                  4. Run it via pressing the green "Run Algorithm" button. 
+                </Row>
+                <Row
+                  noGutters={false}
+                >
+                  5. Enjoy!
+                </Row>
+              </Container>
+            </ModalBody>
+            <ModalFooter>
+              <Button
+                active={false}
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+                variant="primary"
+              >
+                Close
+              </Button>
+            </ModalFooter>
+          </Bootstrap(Modal)>
+          <Button
+            active={false}
+            disabled={true}
+            id="run-btn"
+            onClick={[Function]}
+            style={
+              Object {
+                "border": "2px solid chartreuse",
+                "color": "chartreuse",
+              }
+            }
+            type="button"
+            variant="dark"
+          >
+            Please Select Algorithm
+          </Button>
+          <Dropdown
+            as={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "role": "group",
+                  "toggle": false,
+                  "vertical": false,
+                },
+                "displayName": "ButtonGroup",
+                "render": [Function],
+              }
+            }
+            navbar={false}
+          >
+            <Button
+              active={false}
+              disabled={false}
+              id="reset-btn"
+              onClick={[MockFunction]}
+              style={
+                Object {
+                  "border": "2px solid red",
+                  "color": "red",
+                }
+              }
+              type="button"
+              variant="dark"
+            >
+              Reset Visited
+            </Button>
+            <DropdownToggle
+              id="dropdown-custom-2"
+              split={true}
+              style={
+                Object {
+                  "border": "2px solid red",
+                  "color": "red",
+                }
+              }
+              variant="dark"
+            />
+            <DropdownMenu
+              alignRight={false}
+              flip={true}
+            >
+              <DropdownItem
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "displayName": "SafeAnchor",
+                    "render": [Function],
+                  }
+                }
+                disabled={false}
+                id="fence-reset-btn"
+                onClick={[MockFunction]}
+                variant="dark"
+              >
+                Reset Fences
+              </DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
+        </Nav>
+      </Col>
+      <Col
+        md={
+          Object {
+            "span": 4,
+          }
+        }
+      >
+        <Nav
+          fill={false}
+          justify={false}
+          navbar="true"
+        >
+          <Container
+            fluid={false}
+          >
+            <Form
+              inline={true}
+            >
+              <FormCheck
+                disabled={false}
+                id="fence-check"
+                inline={false}
+                isInvalid={false}
+                isValid={false}
+                label="Fence mode"
+                name="fences"
+                onChange={[MockFunction]}
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+                title=""
+                type="switch"
+              />
+            </Form>
+          </Container>
+          <DropdownButton
+            alignRight={true}
+            className="settings-dropdown"
+            flip={true}
+            id="settings-dropdown"
+            size="sm"
+            title="Settings"
+            variant="dark"
+          >
+            <Container
+              fluid={false}
+              variant="dark"
+            >
+              <Row
+                noGutters={false}
+              >
+                <Form
+                  inline={true}
+                  variant="dark"
+                >
+                  <Col>
+                    Node Size
+                    <FormControl
+                      onChange={[Function]}
+                      placeholder="Currently 20)"
+                      size="sm"
+                      type="text"
+                    />
+                    <FormControl
+                      custom={true}
+                      max="100"
+                      min="10"
+                      onChange={[Function]}
+                      size="sm"
+                      type="range"
+                      value={20}
+                    />
+                    Grid Size
+                    <FormControl
+                      onChange={[Function]}
+                      placeholder="Width (Currently 44)"
+                      size="sm"
+                      type="text"
+                    />
+                    <FormControl
+                      custom={true}
+                      max={49}
+                      min="1"
+                      onChange={[Function]}
+                      size="sm"
+                      type="range"
+                      value={44}
+                    />
+                    <DropdownDivider
+                      role="separator"
+                    />
+                    <FormControl
+                      className="Row-Input"
+                      onChange={[Function]}
+                      placeholder="Height (Currently 27)"
+                      size="sm"
+                      type="text"
+                    />
+                    <FormControl
+                      custom={true}
+                      max={27}
+                      min="1"
+                      onChange={[Function]}
+                      type="range"
+                      value={27}
+                    />
+                    <DropdownDivider
+                      role="separator"
+                    />
+                    <FormLabel
+                      column={false}
+                      srOnly={false}
+                    >
+                      Draw Square
+                    </FormLabel>
+                    <FormControl
+                      custom={true}
+                      max={27}
+                      min="1"
+                      onChange={[Function]}
+                      size="sm"
+                      type="range"
+                      value={44}
+                    />
+                    <DropdownDivider
+                      role="separator"
+                    />
+                    <FormLabel
+                      column={false}
+                      srOnly={false}
+                    >
+                      Animation Speed
+                    </FormLabel>
+                    <FormControl
+                      custom={true}
+                      max="5"
+                      min="1"
+                      onChange={[Function]}
+                      type="range"
+                      value="5"
+                    />
+                  </Col>
+                </Form>
+              </Row>
+            </Container>
+          </DropdownButton>
+        </Nav>
+      </Col>
+    </Container>
+  </NavbarCollapse>
+</Navbar>
+`;

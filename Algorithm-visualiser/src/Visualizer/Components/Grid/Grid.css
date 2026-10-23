@@ -1,0 +1,8 @@
+.Column {
+  display: inline-block;
+}
+.Grid {
+  margin: 15px 50% 0 0;
+  width: 100%;
+  padding: 20px;
+}
